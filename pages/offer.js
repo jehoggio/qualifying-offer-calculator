@@ -1,8 +1,8 @@
 import Head from 'next/head'
+import QualifyingOffer from '../components/QualifyingOffer'
 import styles from '../styles/Home.module.css'
-import Landing from '../components/Landing'
 
-export default function Home() {
+export default function Offer() {
   return (
     <div className={styles.container}>
       <Head>
@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Landing />
+        <QualifyingOffer />
       </main>
     </div>
   )

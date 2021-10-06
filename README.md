@@ -7,6 +7,7 @@ This program calculates the value of a qualifying offer for a player.
 ## Getting Started
 
 To get started, simply navigate to the deployed version of the app.
+https://qualifying-offer-calculator.vercel.app/
 
 To run the app locally, clone this repository and then run the following command to install the dependencies:
 

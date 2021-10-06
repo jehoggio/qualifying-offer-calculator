@@ -4,7 +4,7 @@ import Landing from '../components/Landing'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Qualifying Offer</title>
       </Head>

@@ -6,7 +6,10 @@ const QualifyingOffer = ({ data }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Current Offer</h1>
-      <p className={styles.subtitle}> Here is the current Qualifying Offer. </p>
+      <p className={styles.subtitle}>
+        {' '}
+        This is the average salary of the top 125 MLB players
+      </p>
 
       <OfferData data={data} />
 

@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Offer({ data }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Qualifying Offer</title>
       </Head>
@@ -20,9 +20,7 @@ export async function getServerSideProps() {
   const res = await fetch(
     'https://questionnaire-148920.appspot.com/swe/data.html'
   )
-
   const html = await res.text()
-
   const data = JSON.stringify(html)
 
   if (!data) {
